@@ -1,23 +1,38 @@
-# Student Performance Analysis
+Gemini said
+Here is a concise, Git-ready README.md based on your analysis.
 
-## Objective
+Student Performance Analysis
+Objective
 Analyze factors affecting student performance using the Students Performance dataset.
 
-## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+Tools Used
+Language: Python
 
-## Analysis Performed
-- Basic exploratory data analysis (EDA)
-- Group analysis by gender and test preparation
-- Visualization using histograms, boxplots, scatterplots, and barplots
+Libraries: Pandas, Matplotlib, Seaborn, Scikit-learn
 
-## Key Insights
-1. Female students perform better in reading and writing.
-2. Male students perform slightly better in math.
-3. Students who completed the test preparation course score higher.
-4. Math has the lowest average score among the three subjects.
-5. Reading and writing scores are strongly correlated.
+Environment: Jupyter Notebook
+
+Analysis Performed
+Exploratory Data Analysis (EDA): Inspected data structure, null values, and summary statistics.
+
+Group Analysis: Evaluated performance by gender, parental education, and test preparation.
+
+Visualizations: Created distribution plots, correlation heatmaps, and box plots.
+
+Machine Learning: Built a Linear Regression model to predict math scores.
+
+Key Insights
+Gender: Female students perform better in reading and writing, while males score slightly higher in math.
+
+Preparation: Completing a test preparation course correlates with higher scores.
+
+Correlation: Reading and writing scores show a strong positive correlation of 0.95.
+
+Subject Trends: Math consistently has the lowest average score compared to other subjects.
+
+Model Performance
+The predictive model for math scores achieved the following metrics:
+
+Mean Absolute Error (MAE): 4.21
+
+Mean Squared Error (MSE): 29.10
