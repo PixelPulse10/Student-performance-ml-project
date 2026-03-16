@@ -1,38 +1,47 @@
-Gemini said
-Here is a concise, Git-ready README.md based on your analysis.
+===========================================
+DAY 3 - EXPLORATORY DATA ANALYSIS (EDA)
+Student Performance Analysis Project
+===========================================
 
-Student Performance Analysis
-Objective
-Analyze factors affecting student performance using the Students Performance dataset.
+Objective:
+- Understand the dataset
+- Perform basic Exploratory Data Analysis
+- Check for missing values
+- Inspect data structure before applying ML
 
-Tools Used
-Language: Python
+Steps Performed:
 
-Libraries: Pandas, Matplotlib, Seaborn, Scikit-learn
+1. Dataset Loading
+   - Loaded dataset using pandas
 
-Environment: Jupyter Notebook
+2. Basic Data Inspection
+   - df.head()      -> First rows of dataset
+   - df.shape       -> Number of rows and columns
+   - df.info()      -> Data types and non-null values
+   - df.describe()  -> Statistical summary
 
-Analysis Performed
-Exploratory Data Analysis (EDA): Inspected data structure, null values, and summary statistics.
+3. Missing Value Check
+   - Used df.isnull().sum()
+   - Dataset contains no missing values
 
-Group Analysis: Evaluated performance by gender, parental education, and test preparation.
+4. Basic Exploration
+   - Observed distribution of:
+        * Math scores
+        * Reading scores
+        * Writing scores
 
-Visualizations: Created distribution plots, correlation heatmaps, and box plots.
+Libraries Used:
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-Machine Learning: Built a Linear Regression model to predict math scores.
+Next Steps:
+- Advanced EDA
+- Correlation analysis
+- Feature engineering
+- Machine Learning model building
 
-Key Insights
-Gender: Female students perform better in reading and writing, while males score slightly higher in math.
-
-Preparation: Completing a test preparation course correlates with higher scores.
-
-Correlation: Reading and writing scores show a strong positive correlation of 0.95.
-
-Subject Trends: Math consistently has the lowest average score compared to other subjects.
-
-Model Performance
-The predictive model for math scores achieved the following metrics:
-
-Mean Absolute Error (MAE): 4.21
-
-Mean Squared Error (MSE): 29.10
+Author: Yug Agrawal
+Machine Learning Journey - Day 3
+===========================================
