@@ -29,7 +29,7 @@ The dataset includes:
 
 ### 3. Feature Engineering
 
-* Created a new feature: average score (reading + writing) / 2
+* Created a new feature:average score (reading + writing) / 2
 
 ### 4. Model Building
 
