@@ -6,7 +6,7 @@ The goal of this project is to analyze factors affecting student performance and
 
 ## Dataset
 
-The dataset includes:
+The dataset includes: 
 
 * Gender  
 * Race/Ethnicity 
@@ -21,7 +21,7 @@ The dataset includes:
 
 * Checked dataset structure and summary statistics
 * Identified key patterns
-
+ 
 ### 2. Data Visualization
 
 * Analyzed score distributions
